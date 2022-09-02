@@ -1,0 +1,8 @@
+Proca:
+  name: Proca
+  bio: Think twice, code once.
+  image_url: /img/authors/Proca.png
+  links: 
+    - label: "邮箱"
+      icon: "fas fa-envelope"
+      url: "mailto: 2101250877@qq.com"
