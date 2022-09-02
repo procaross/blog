@@ -24,7 +24,18 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans', 'en'],
+    localeConfigs: {
+      'en': {
+        htmlLang: 'en-GB',
+        label: 'English',
+        direction: 'ltr',
+      },  
+      'zh-Hans': {
+        label: '简体中文',
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [
@@ -72,6 +83,10 @@ const config = {
           //   label: 'Tutorial',
           // },
           // {to: '/blog', label: '技术博文', position: 'left'},
+          {
+            type:'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/ProcaRoss',
             label: '我的Github',
