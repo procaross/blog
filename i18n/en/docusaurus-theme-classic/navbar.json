@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Proca的个人博客",
+    "message": "Proca's Blog'",
     "description": "The title in the navbar"
   },
   "item.label.我的Github": {
-    "message": "我的Github",
+    "message": "My Github",
     "description": "Navbar item with label 我的Github"
   }
 }

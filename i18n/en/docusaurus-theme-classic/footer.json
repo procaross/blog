@@ -1,18 +1,18 @@
 {
   "link.title.全站导航": {
-    "message": "全站导航",
+    "message": "Navigation",
     "description": "The title of the footer links column with title=全站导航 in the footer"
   },
   "link.title.社区": {
-    "message": "社区",
+    "message": "Community",
     "description": "The title of the footer links column with title=社区 in the footer"
   },
   "link.title.更多": {
-    "message": "更多",
+    "message": "More",
     "description": "The title of the footer links column with title=更多 in the footer"
   },
   "link.item.label.技术博文": {
-    "message": "技术博文",
+    "message": "technical blog",
     "description": "The label of footer link with label=技术博文 linking to /"
   },
   "link.item.label.Stack Overflow": {
@@ -28,7 +28,7 @@
     "description": "The label of footer link with label=Github linking to https://github.com"
   },
   "link.item.label.可链": {
-    "message": "可链",
+    "message": "Colink",
     "description": "The label of footer link with label=可链 linking to https://co.link/"
   },
   "copyright": {
