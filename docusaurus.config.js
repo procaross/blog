@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Proca',
   tagline: '个人博客',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://www.proca.icu',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,14 +32,16 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // docs: {
+        //   sidebarPath: require.resolve('./sidebars.js'),
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         blog: {
+          path: "./blog",
+          routeBasePath: "/",
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -69,10 +71,10 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: '技术博文', position: 'left'},
+          // {to: '/blog', label: '技术博文', position: 'left'},
           {
             href: 'https://github.com/ProcaRoss',
-            label: 'GitHub',
+            label: '我的Github',
             position: 'right',
           },
         ],
@@ -85,7 +87,7 @@ const config = {
             items: [
               {
                 label: '技术博文',
-                to: '/blog',
+                to: '/',
               },
             ],
           },
