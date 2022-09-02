@@ -1,7 +1,7 @@
 Proca:
   name: Proca
   bio: Think twice, code once.
-  image_url: /img/authors/Proca.png
+  image_url: https://github.com/ProcaRoss.png
   links: 
     - label: "邮箱"
       icon: "fas fa-envelope"

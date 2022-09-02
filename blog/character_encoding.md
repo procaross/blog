@@ -285,7 +285,7 @@ Unicode字符集目前囊括144,679个字符，使用1个字节——即**8比�
 
   
 
-<!-- ![train](./static/img/character-encoding/train.jpeg) -->
+![train](img/character-encoding/train.jpeg)
 
   
 
