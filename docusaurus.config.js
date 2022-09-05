@@ -52,7 +52,7 @@ const config = {
         // },
         blog: {
           path: "./blog",
-          routeBasePath: "/",
+          routeBasePath: "/blog",
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -88,7 +88,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // {to: '/blog', label: '技术博文', position: 'left'},
+          {to: '/blog', label: '技术博文', position: 'left'},
           {
             type:'localeDropdown',
             position: 'right',
@@ -108,7 +108,7 @@ const config = {
             items: [
               {
                 label: '技术博文',
-                to: '/',
+                to: '/blog',
               },
             ],
           },
