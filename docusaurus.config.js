@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Proca的个人博客',
   tagline: '这里是Proca的个人博客，分享一些实用的博文～',
-  url: 'http://www.proca.icu',
+  url: 'http://proca.icu',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
