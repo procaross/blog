@@ -55,9 +55,7 @@ const config = {
           anonymizeIP: true,
         },
         sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          priority: 0.5,          
           filename: 'sitemap.xml',
         },
         blog: {
