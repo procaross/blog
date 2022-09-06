@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Proca的个人博客',
-  tagline: '这里是Proca的个人博客，分享一些实用的博文～',
+  tagline: 'Hi! 我是Proca，在这里我会分享一些个人学习过程中写的博文',
   url: 'http://proca.icu',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -79,13 +79,13 @@ const config = {
     ({
       metadata: [
         {name: 'keywords', content: '技术, blog, Javascript'},
-        {name: 'description', content: '这里是Proca的个人博客～会分享一些个人学习过程中写的博文'},
+        {name: 'description', content: 'Hi! 我是Proca，在这里我会分享一些个人学习过程中写的博文'},
         {
-          property: 'og:title', content: 'Proca的个人博客'
+          property: 'og:title', content: 'Proca'
         }
     ],
       navbar: {
-        title: 'Proca的个人博客',
+        title: 'Proca',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
