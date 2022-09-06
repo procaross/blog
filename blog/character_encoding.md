@@ -3,6 +3,7 @@ slug: tutorials/ascii-and-utf-8
 title: 了解字符编码：ASCII、UTF-8
 authors: Proca
 tags: [tutorials, encoding, ascii, unicode, utf-8]
+keywords: [tutorials, encoding, ascii, unicode, utf-8]
 date: 2022-08-12 09:08:00 +0800
 ---
 

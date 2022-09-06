@@ -40,6 +40,22 @@ const config = {
 
   presets: [
     [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-27SWHJ9YZG',
+          anonymizeIP: true,
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+
+      },
+    ],
+    [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
@@ -65,11 +81,12 @@ const config = {
       }),
     ],
   ],
-
+  baseUrlIssueBanner: false,
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
+        {name: 'keywords', content: '技术, blog, Javascript'},
         {name: 'description', content: '这里是Proca的个人博客～会分享一些个人学习过程中写的博文'},
         {
           property: 'og:title', content: 'Proca的个人博客'
