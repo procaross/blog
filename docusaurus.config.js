@@ -40,22 +40,6 @@ const config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
-        gtag: {
-          trackingID: 'G-27SWHJ9YZG',
-          anonymizeIP: true,
-        },
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
-        },
-
-      },
-    ],
-    [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
@@ -66,6 +50,16 @@ const config = {
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
+        gtag: {
+          trackingID: 'G-27SWHJ9YZG',
+          anonymizeIP: true,
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
         blog: {
           path: "./blog",
           routeBasePath: "/blog",
