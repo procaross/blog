@@ -3,31 +3,14 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
-    title: '这里还什么都没有',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-      </>
-    ),
-  },
-  {
-    title: '不过马上更新',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        
-      </>
-    ),
-  },
-  {
+  /* {
     title: '下次一定',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>  
       </>
     ),
-  },
+  }, */
 ];
 
 function Feature({Svg, title, description}) {
