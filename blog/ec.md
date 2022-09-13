@@ -1,5 +1,5 @@
 ---
-slug: tutorials/executionContext
+slug: /ec
 title: 深入理解：ECMAScript 3中的执行上下文
 authors: Proca
 keywords: [tutorials, 执行上下文, this, 作用域链]
