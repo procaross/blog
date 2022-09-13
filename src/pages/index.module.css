@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  background-color: white;
+  height: 500px;
   padding: 0;
   text-align: center;
   position: relative;
@@ -13,6 +13,6 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 0rem;
   }
 }
