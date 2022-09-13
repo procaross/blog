@@ -3,14 +3,14 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  /* {
-    title: '下次一定',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>  
-      </>
-    ),
-  }, */
+  // {
+  //   title: '下次一定',
+  //   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({Svg, title, description}) {

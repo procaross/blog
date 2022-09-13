@@ -4,23 +4,34 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Background from '../../static/img/background.jpeg'
 
 import styles from './index.module.css';
+
+var sectionStyle = {
+  width: "100%",
+  height: "500px",
+  backgroundImage: `url(${Background})`,
+
+
+};
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)} >
+      <div style={sectionStyle}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        <h1 className="hero__title" style={{marginTop: 2 + 'em'}} >{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/* <div className={styles.buttons}>
+        {<div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog">
+            阅读博客
           </Link>
-        </div> */}
+        </div>}
+      </div>
       </div>
     </header>
   );
@@ -31,7 +42,7 @@ export default function Home() {
   return (
     <Layout
       title={`主页`}
-      description="Description will go into a meta tag in <head />">
+      description="欢迎来到Proca的个人博客～">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
