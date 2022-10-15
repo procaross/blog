@@ -285,8 +285,12 @@ Unicode字符集目前囊括144,679个字符，使用1个字节——即**8比�
 在我们上述的讨论中，似乎存在着这样的“**电车难题**”.
 
   
+<div style={{textAlign: 'center'}}>
 
-![train](img/character-encoding/train.jpeg)
+![train](img/character-encoding/copy_scope.svg)
+
+</div>
+
 
   
 

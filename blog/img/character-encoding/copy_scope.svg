@@ -1,0 +1,38 @@
+<svg width="570" height="360" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_24">
+   <path fill="none" stroke-dasharray="5,5" opacity="undefined" d="m41.3332,79.66653l144.66663,0l0,43.33332l-144.66663,0l0,-43.33332z" id="svg_12" stroke="#000"/>
+   <text fill="#000000" x="31.54088" y="118.88554" id="svg_9" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(0.817096 0 0 0.782682 31.3392 13.8723)">function fun</text>
+   <line fill="none" x1="113.00002" y1="126.66666" x2="113.14287" y2="176.66666" id="svg_11" stroke-dasharray="2,2" stroke="#000"/>
+   <path fill="none" stroke-dasharray="2,2" d="m104.33332,191.78965l9.33333,-13.33333l9.33333,13.33333l-18.66666,0z" id="svg_13" stroke="#000" transform="rotate(180 113.666 185.123)"/>
+   <rect fill="none" stroke-dasharray="2,2" x="9.99987" y="194.99982" width="208.6666" height="47.33331" id="svg_16" stroke="#000"/>
+   <text fill="#000000" x="39.35118" y="292.257" id="svg_19" font-size="24" font-family="'Alegreya'" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(0.600961 0 0 0.558936 65.1458 94.5041)">[[scope]]</text>
+   <text fill="#000000" x="32.12742" y="236.95835" id="svg_21" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(0.729387 0 0 0.68551 19.8999 61.8568)">globalContext.VO</text>
+  </g>
+ </g>
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <text transform="matrix(0.65054 0 0 0.642046 63.252 97.0955)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Alegreya'" font-size="24" stroke-width="0" id="svg_1" y="2.39131" x="407.31457" fill="#000000">EC Stack</text>
+  <rect stroke="#000" id="svg_30" height="148.46153" width="103.07691" y="197.69226" x="456.92297" stroke-dasharray="2,2" fill="none"/>
+  <g id="svg_8">
+   <rect stroke="#000" id="svg_3" height="196.66642" width="135.99985" y="80.29669" x="290.29255" fill="none"/>
+   <line stroke-dasharray="2,2" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="237.74097" x2="428.62556" y1="237.07431" x1="292.62571" stroke="#000" fill="none"/>
+   <line stroke-dasharray="2,2" filter="url(#svg_5_blur)" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="191.40814" x2="428.29294" y1="191.07436" x1="292.62571" stroke="#000" fill="none"/>
+   <text transform="matrix(0.65054 0 0 0.642046 63.252 97.0955)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_6" y="192.01978" x="392.19467" fill="#000000">funContext</text>
+   <text transform="matrix(0.65054 0 0 0.642046 63.252 97.0955)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_7" y="257.52723" x="375.9186" fill="#000000">globalContext</text>
+   <line stroke-dasharray="2,2" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="109.40764" x2="428.29294" y1="108.74098" x1="292.29294" stroke="#000" fill="none"/>
+  </g>
+  <line stroke-dasharray="2,2" id="svg_10" y2="216" x2="290.53846" y1="216" x1="220.53846" stroke="#000" fill="none"/>
+  <line stroke="#000" id="svg_14" y2="215.61538" x2="456.53836" y1="215.76918" x1="426.92298" stroke-dasharray="2,2" fill="none"/>
+  <text transform="matrix(0.596423 0 0 0.599232 183.85 92.2505)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Manrope'" font-size="24" id="svg_34" y="210.88178" x="476.56995" fill="#000000">scope chain</text>
+  <line id="svg_37" y2="317" x2="559.23068" y1="316.92302" x1="456.53838" stroke-dasharray="2,2" stroke="#000" fill="none"/>
+  <text transform="matrix(0.463731 0 0 0.459915 280.271 177.845)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Manrope'" font-size="24" id="svg_40" y="344.23424" x="393.419" fill="#000000">globalContext.VO</text>
+  <line id="svg_42" y2="227.99947" x2="559.79891" y1="227.99947" x1="456.99905" stroke-dasharray="2,2" stroke="#000" fill="none"/>
+ </g>
+ <defs>
+  <filter id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

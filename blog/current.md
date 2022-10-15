@@ -8,8 +8,6 @@ date: 2022-09-12 20:40:00 +0800
 ---
 ## 正在开发 
 
-1. 评论插件（面向 co.link，利用gitlab API）（先于 Proca.icu 部署）
-2. Proca.icu SEO 优化
-3. 《深入理解：ECMAScript 5中的执行上下文》博文编写
-
-*deadline: 2022.09.16*
+1. 基于三剑客的 todo 应用
+2. 每日一令：python -m venv 博客撰写
+3. 红宝书学习

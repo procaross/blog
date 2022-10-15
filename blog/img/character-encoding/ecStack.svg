@@ -1,0 +1,19 @@
+<svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <g id="svg_8">
+   <rect fill="none" x="43.1387" y="7.52746" width="135.99985" height="196.66642" id="svg_3" stroke="#000"/>
+   <line fill="none" stroke="#000" x1="45.47186" y1="164.30508" x2="181.47171" y2="164.97174" id="svg_4" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-dasharray="2,2"/>
+   <line fill="none" stroke="#000" x1="45.47186" y1="118.30513" x2="181.13909" y2="118.63891" id="svg_5" stroke-linejoin="undefined" stroke-linecap="undefined" filter="url(#svg_5_blur)" stroke-dasharray="2,2"/>
+   <text fill="#000000" x="12.27364" y="78.6802" id="svg_6" stroke-width="0" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(0.65054 0 0 0.642046 63.252 97.0955)">funContext</text>
+   <text fill="#000000" x="-4.00243" y="144.18765" id="svg_7" stroke-width="0" font-size="24" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(0.65054 0 0 0.642046 63.252 97.0955)">globalContext</text>
+   <line fill="none" stroke="#000" x1="45.13909" y1="35.97175" x2="181.13909" y2="36.63841" id="svg_2" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-dasharray="2,2"/>
+  </g>
+  <text fill="#000000" x="29.15577" y="-109.65356" id="svg_1" stroke-width="0" font-size="24" font-family="'Alegreya'" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(0.65054 0 0 0.642046 63.252 97.0955)">EC Stack</text>
+ </g>
+ <defs>
+  <filter id="svg_5_blur">
+   <feGaussianBlur in="SourceGraphic" stdDeviation="0"/>
+  </filter>
+ </defs>
+</svg>

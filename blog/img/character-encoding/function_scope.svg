@@ -1,0 +1,13 @@
+<svg width="214" height="192" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>function_scope</title>
+  <path stroke="#000" id="svg_12" d="m33.99986,1.66655l144.66663,0l0,43.33332l-144.66663,0l0,-43.33332z" opacity="undefined" stroke-dasharray="5,5" fill="none"/>
+  <text transform="matrix(0.817096 0 0 0.782682 31.3392 13.8723)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_9" y="19.22819" x="22.56601" fill="#000000">function fun</text>
+  <line stroke="#000" stroke-dasharray="2,2" id="svg_11" y2="98.66668" x2="105.80954" y1="48.66668" x1="105.66668" fill="none"/>
+  <path transform="rotate(180 106.333 107.123)" stroke="#000" id="svg_13" d="m96.99999,113.78967l9.33333,-13.33333l9.33333,13.33333l-18.66666,0z" stroke-dasharray="2,2" fill="none"/>
+  <rect stroke="#000" id="svg_16" height="47.33331" width="208.6666" y="116.99985" x="2.66654" stroke-dasharray="2,2" fill="none"/>
+  <text transform="matrix(0.600961 0 0 0.558936 65.1458 94.5041)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Alegreya'" font-size="24" id="svg_19" y="152.7062" x="27.14851" fill="#000000">[[scope]]</text>
+  <text transform="matrix(0.729387 0 0 0.68551 19.8999 61.8568)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_21" y="123.17443" x="22.07332" fill="#000000">globalContext.VO</text>
+ </g>
+
+</svg>
