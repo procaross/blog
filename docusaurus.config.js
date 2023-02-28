@@ -98,6 +98,7 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/blog', label: '技术博文', position: 'left'},
+          {to: '/tool', label: '加密工具', position: 'left'},
           {
             type:'localeDropdown',
             position: 'right',
