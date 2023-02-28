@@ -47,6 +47,7 @@ export default function Hello() {
   const [displayStr, setDisplayStr] = useState("");
   const [hiddenStr, setHiddenStr] = useState("");
   const [resultStr, setResultStr] = useState("");
+  const [decryptStr, setDecryptStr] = useState("");
 
   const zeroWidthEncrypt = () => {
     let encrypted = displayStr;
@@ -77,7 +78,7 @@ export default function Hello() {
         decrypted += resultStr[i];
       }
     }
-    setDisplayStr(decrypted);
+    setDecryptStr(decrypted);
     setHiddenStr("");
   };
 
@@ -134,7 +135,8 @@ export default function Hello() {
             </InputLabel>
             <Input
               type="text"
-              value={displayStr} />
+              value={decryptStr}
+              disabled={true}/>
           </FormControl>
 
           <Box sx={{ display: 'flex' }}>
