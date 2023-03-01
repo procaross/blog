@@ -43,7 +43,7 @@ const Input = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function Tool() {
+export default function ToolPro() {
   const [displayStr, setDisplayStr] = useState("");
   const [hiddenStr, setHiddenStr] = useState("");
   const [resultStr, setResultStr] = useState("");
